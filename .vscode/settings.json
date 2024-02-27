@@ -1,0 +1,13 @@
+{
+  "cSpell.words": ["corejs", "shuyun", "svgr"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.options": {
+    "extensions": [".ts", ".tsx", ".js", ".jsx"]
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.tabSize": 2
+}
