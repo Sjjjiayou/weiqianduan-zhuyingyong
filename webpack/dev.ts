@@ -11,11 +11,30 @@ module.exports = merge(Common, {
   mode: "development",
   devtool: "cheap-module-source-map",
   devServer: {
-    static: {
-      directory: path.join(__dirname, "../public"),
-    },
-    port: "7100",
+    // static: {
+    //   directory: path.join(__dirname, "../public"),
+    // },
+    port: 7100,
     open: true,
+    historyApiFallback: true,
+    //启用热更新
+    liveReload: true,
+    // hot: true,
+    client: {
+      overlay: false,
+      logging: "none",
+    },
+    proxy: {
+      "/app-react": {
+        target: "http://localhost:7101",
+        changeOrigin: true,
+        // rewrite: (path: string) => {
+        //   // eslint-disable-next-line no-console
+        //   console.log("/finance proxy received, path: ", path);
+        //   return path;
+        // },
+      },
+    },
   },
   plugins: [
     new CaseSensitivePathsPlugin(),

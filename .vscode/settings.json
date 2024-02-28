@@ -1,13 +1,18 @@
 {
-  "cSpell.words": ["corejs", "shuyun", "svgr"],
+  "cSpell.words": ["antd", "corejs", "qiankun", "shuyun", "svgr"],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "eslint.options": {
     "extensions": [".ts", ".tsx", ".js", ".jsx"]
   },
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "editor.tabSize": 2
 }

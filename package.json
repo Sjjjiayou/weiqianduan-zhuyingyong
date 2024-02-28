@@ -1,5 +1,5 @@
 {
-  "name": "weiyingyong",
+  "name": "zhiyingyong",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,25 +10,17 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.83",
-    "@types/react": "^18.2.59",
-    "@types/react-dom": "^18.2.19",
     "antd": "^5.14.2",
+    "qiankun": "^2.10.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4",
-    "@babel/runtime": "^7.21.5"
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",
-    "core-js": "^3.15.0",
     "@babel/plugin-proposal-decorators": "^7.21.0",
     "@babel/plugin-transform-runtime": "^7.21.4",
     "@babel/preset-env": "^7.21.5",
@@ -36,7 +28,13 @@
     "@babel/preset-typescript": "^7.21.5",
     "@babel/register": "^7.21.0",
     "@svgr/webpack": "^6.2.1",
+    "@types/antd": "^1.0.0",
+    "@types/jest": "^27.5.2",
     "@types/node": "^17.0.33",
+    "@babel/runtime": "^7.21.5",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "@types/webpack": "^5.28.0",
@@ -45,6 +43,7 @@
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "circular-dependency-plugin": "^5.2.2",
     "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.15.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.4",
     "html-webpack-plugin": "^5.5.1",
