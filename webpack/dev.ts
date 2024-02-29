@@ -28,11 +28,6 @@ module.exports = merge(Common, {
       "/app-react": {
         target: "http://localhost:7101",
         changeOrigin: true,
-        // rewrite: (path: string) => {
-        //   // eslint-disable-next-line no-console
-        //   console.log("/finance proxy received, path: ", path);
-        //   return path;
-        // },
       },
     },
   },

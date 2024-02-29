@@ -5,6 +5,7 @@ import { registerMicroApps, start } from "qiankun";
 import ReactDOM from "react-dom";
 
 const App: React.FC = () => {
+  console.log("77777777");
   useEffect(() => {
     registerMicroApps([
       {
@@ -22,7 +23,7 @@ const App: React.FC = () => {
     ]);
     // 启动 qiankun
     start();
-  }, []);
+  });
 
   return (
     <ConfigProvider theme={{ token: { colorPrimary: "#00b96b" } }}>
